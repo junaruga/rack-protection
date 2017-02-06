@@ -93,7 +93,7 @@ module NotImplementedAsPending
 end
 
 RSpec.configure do |config|
-  config.expect_with :rspec, :stdlib
+  config.expect_with :rspec
   config.include Rack::Test::Methods
   config.include TestHelpers
 end
