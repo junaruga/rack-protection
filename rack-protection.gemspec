@@ -114,5 +114,7 @@ Gem::Specification.new do |s|
   # dependencies
   s.add_dependency "rack"
   s.add_development_dependency "rack-test"
-  s.add_development_dependency "rspec", "~> 2.0"
+  s.add_development_dependency "rspec", "~> 3.0"
+  s.add_development_dependency "minitest", '~> 5.10.1'
+  #s.add_development_dependency "test-unit"
 end
